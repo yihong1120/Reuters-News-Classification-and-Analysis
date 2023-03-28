@@ -8,7 +8,7 @@ This project consists of three main Python files:
 3. *demo.py*: Demonstrates how to train the Reuters model and analyze news articles.
 
 ### reuters_classification.py
-This file contains the *'ReutersModel'*, *ReutersTrainer*, and *ReutersPredictor* classes. The *ReutersModel* class is responsible for building, training, and evaluating the news classification model using the Reuters dataset. The *ReutersTrainer* class trains the model and the ReutersPredictor class predicts the category of a given text input.
+This file contains the **'ReutersModel'**, *ReutersTrainer*, and *ReutersPredictor* classes. The *ReutersModel* class is responsible for building, training, and evaluating the news classification model using the Reuters dataset. The *ReutersTrainer* class trains the model and the ReutersPredictor class predicts the category of a given text input.
 
 ### news_scraper_translator.py
 This file contains the NewsScraper and *TextTranslator* classes. The *NewsScraper* class is responsible for fetching and extracting news articles' title and content from a given URL. The *TextTranslator* class is responsible for translating text using the Google Translate API.
