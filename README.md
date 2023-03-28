@@ -31,17 +31,11 @@ The script will output the predicted category for the given news article.
 
 ## Future Work and Suggestions
 1. Improve the accuracy of the classification model by using more advanced techniques, such as fine-tuning pre-trained models like BERT or RoBERTa.
-
 2. Expand the functionality of the NewsScraper class to support more websites and handle different web page structures.
-
 3. Add support for multiple languages in the TextTranslator class by detecting the input language and translating it to a target language before classification.
-
 4. Implement a web-based user interface or an API to allow users to input news articles' URLs and receive the predicted category.
-
 5. Add functionality to monitor news websites in real-time and automatically classify articles as they are published.
-
 6. Consider implementing caching or storage for the trained model to improve performance and reduce retraining time.
-
 7. Use additional metrics, such as precision, recall, and F1 score, to evaluate the performance of the classification model.
 
 ## License
