@@ -3,9 +3,9 @@ Train a model to categorize news articles, scrape and translate articles, and pr
 
 This project consists of three main Python files:
 
-1. *reuters_classification.py*: Implements a Reuters news classification model using TensorFlow and Keras.
-2. *news_scraper_translator.py*: Contains classes for news scraping and text translation.
-3. *demo.py*: Demonstrates how to train the Reuters model and analyze news articles.
+1. **reuters_classification.py**: Implements a Reuters news classification model using TensorFlow and Keras.
+2. **news_scraper_translator.py**: Contains classes for news scraping and text translation.
+3. **demo.py**: Demonstrates how to train the Reuters model and analyze news articles.
 
 ### reuters_classification.py
 This file contains the **'ReutersModel'**, *ReutersTrainer*, and *ReutersPredictor* classes. The *ReutersModel* class is responsible for building, training, and evaluating the news classification model using the Reuters dataset. The *ReutersTrainer* class trains the model and the ReutersPredictor class predicts the category of a given text input.
