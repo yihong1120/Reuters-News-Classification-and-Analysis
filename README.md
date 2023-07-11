@@ -3,18 +3,18 @@ Train a model to categorize news articles, scrape and translate articles, and pr
 
 This project consists of three main Python files:
 
-1. **reuters_classification.py**: Implements a Reuters news classification model using TensorFlow and Keras.
-2. **news_scraper_translator.py**: Contains classes for news scraping and text translation.
-3. **demo.py**: Demonstrates how to train the Reuters model and analyze news articles.
+1. `reuters_classification.py`: Implements a Reuters news classification model using TensorFlow and Keras.
+2. `news_scraper_translator.py`: Contains classes for news scraping and text translation.
+3. `demo.py`: Demonstrates how to train the Reuters model and analyze news articles.
 
 ### reuters_classification.py
-This file contains the **ReutersModel**, **ReutersTrainer**, and **ReutersPredictor** classes. The **ReutersModel** class is responsible for building, training, and evaluating the news classification model using the Reuters dataset. The **ReutersTrainer** class trains the model and the **ReutersPredictor** class predicts the category of a given text input.
+This file contains the `ReutersModel`, `ReutersTrainer`, and `ReutersPredictor` classes. The `ReutersModel` class is responsible for building, training, and evaluating the news classification model using the Reuters dataset. The `ReutersTrainer` class trains the model and the `ReutersPredictor` class predicts the category of a given text input.
 
 ### news_scraper_translator.py
-This file contains the NewsScraper and **TextTranslator** classes. The **NewsScraper** class is responsible for fetching and extracting news articles' title and content from a given URL. The **TextTranslator** class is responsible for translating text using the Google Translate API.
+This file contains the NewsScraper and `TextTranslator` classes. The `NewsScraper` class is responsible for fetching and extracting news articles' title and content from a given URL. The `TextTranslator` class is responsible for translating text using the Google Translate API.
 
 ### demo.py
-This file demonstrates how to train the Reuters model and analyze news articles using the **ModelTrainer** and **NewsAnalyzer** classes. The **ModelTrainer** class is responsible for training the Reuters model, while the **NewsAnalyzer** class analyzes the news article, translates the text, and predicts its category using the trained model.
+This file demonstrates how to train the Reuters model and analyze news articles using the `ModelTrainer` and `NewsAnalyzer` classes. The `ModelTrainer` class is responsible for training the Reuters model, while the `NewsAnalyzer` class analyzes the news article, translates the text, and predicts its category using the trained model.
 
 ## Usage
 To use this project, follow these steps:
